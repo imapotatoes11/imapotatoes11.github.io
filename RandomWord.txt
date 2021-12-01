@@ -1,0 +1,242 @@
+
+azo: {'Adjective': ['relating to or containing the azo radical']}
+loo: {'Noun': ['a toilet in Britain']}
+ague: {'Noun': ['a fit of shivering or shaking', 'successive stages of chills and fever that is a symptom of malaria', 'a mark placed above a vowel to indicate pronunciation']}
+wee: {'Noun': ['a short time'], 'Verb': ['eliminate urine'], 'Adjective': ['(used informally', 'very early']}
+gan: {'Verb': ['separate the seeds from (cotton', 'trap with a snare']}
+moke: {'Noun': ['British informal for donkey']}
+egg: {'Noun': ['animal reproductive body consisting of an ovum or embryo together with nutritive and protective envelopes; especially the thin-shelled reproductive body laid by e.g. female birds', 'oval reproductive body of a fowl (especially a hen', 'one of the two male reproductive glands that produce spermatozoa and secrete androgens'], 'Verb': ['throw eggs at', 'coat with beaten egg']}
+awe: {'Noun': ['an overwhelming feeling of wonder or admiration', 'a feeling of profound respect for someone or something'], 'Verb': ['inspire awe in']}
+zee: {'Noun': ['the 26th letter of the Roman alphabet']}
+ass: {'Noun': ['the fleshy part of the human body that you sit on', 'a pompous fool', 'hardy and sure-footed animal smaller and with longer ears than the horse', 'slang for sexual intercourse']}
+nee: {'Adjective': ["(meaning literally `born'"]}
+coo: {'Noun': ['the sound made by a pigeon'], 'Verb': ['speak softly or lovingly', 'cry softly, as of pigeons']}
+wow: {'Noun': ['a joke that seems extremely funny'], 'Verb': ['impress greatly']}
+poke: {'Noun': ['tall coarse perennial American herb having small white flowers followed by blackish-red berries on long drooping racemes; young fleshy stems are edible; berries and root are poisonous', 'someone who takes more time than necessary; someone who lags behind', "a bag made of paper or plastic for holding customer's purchases", 'a sharp hand gesture (resembling a blow', '(boxing'], 'Verb': ['poke or thrust abruptly', 'search or inquire in a meddlesome way', 'stir by poking', 'hit hard with the hand, fist, or some heavy instrument', 'make a hole by poking']}
+woke: {'Verb': ['be awake, be alert, be there', 'stop sleeping', 'arouse or excite feelings and passions', 'make aware of', 'cause to become awake or conscious']}
+oka: {'Noun': ['a Turkish unit of weight equal to about 2.75 pounds', 'a Turkish liquid unit equal to 1.3 pints', 'South American wood sorrel cultivated for its edible tubers']}
+inn: {'Noun': ['a hotel providing overnight lodging for travelers']}
+pam: None
+moo: {'Noun': ['the sound made by a cow or bull'], 'Verb': ['make a low noise, characteristic of bovines']}
+dam: {'Noun': ['a barrier constructed to contain the flow of water or to keep out the sea', 'a metric unit of length equal to ten meters', 'female parent of an animal especially domestic livestock'], 'Verb': ['obstruct with, or as if with, a dam']}
+wee: {'Noun': ['a short time'], 'Verb': ['eliminate urine'], 'Adjective': ['(used informally', 'very early']}
+arr: None
+arr: None
+nap: {'Noun': ['a period of time spent sleeping', 'a soft or fuzzy surface texture', 'the yarn (as in a rug or velvet or corduroy', 'sleeping for a short period of time (usually not in bed', 'a card game similar to whist; usually played for stakes'], 'Verb': ['take a siesta']}
+see: {'Noun': ["the seat within a bishop's diocese where his cathedral is located"], 'Verb': ['perceive by sight or have the power to perceive by sight', 'perceive (an idea or situation', 'perceive or be contemporaneous with', "imagine; conceive of; see in one's mind", 'deem to be', 'get to know or become aware of, usually accidentally', 'see or watch', 'come together', 'find out, learn, or determine with certainty, usually by making an inquiry or other effort', 'be careful or certain to do something; make certain of something', 'go to see for professional or business reasons', 'go to see for a social visit', 'go to see a place, as for entertainment', 'take charge of or deal with', 'receive as a specified guest', 'date regularly; have a steady relationship with', 'see and understand, have a good eye', 'deliberate or decide', 'observe as if with an eye', 'observe, check out, and look over carefully or inspect', 'undergo or live through a difficult experience', 'accompany or escort', 'match or meet', 'make sense of; assign a meaning to']}
+xix: {'Noun': ['the cardinal number that is the sum of eighteen and one'], 'Adjective': ['being one more than eighteen']}
+pee: {'Noun': ['liquid excretory product', 'informal terms for urination'], 'Verb': ['eliminate urine']}
+zee: {'Noun': ['the 26th letter of the Roman alphabet']}
+hake: {'Noun': ['the lean flesh of a fish similar to cod', 'any of several marine food fishes related to cod']}
+poky: {'Noun': ['a correctional institution used to detain persons who are in the lawful custody of the government (either accused persons awaiting trial or convicted persons serving a sentence'], 'Adjective': ['wasting time', 'small and remote and insignificant']}
+sob: {'Noun': ['a dyspneic condition', 'insulting terms of address for people who are stupid or irritating or ridiculous', 'convulsive gasp made while weeping'], 'Verb': ['weep convulsively']}
+esse: None
+off: {'Verb': ['kill intentionally and with premeditation'], 'Adjective': ['not in operation or operational', 'below a satisfactory level', '(of events', 'in an unpalatable state', 'not performing or scheduled for duties'], 'Adverb': ["from a particular thing or place or position (`forth' is obsolete", 'at a distance in space or time', 'or away', 'or away', 'no longer on or in contact or attached']}
+wan: {'Noun': ['a computer network that spans a wider area than does a local area network'], 'Verb': ['become pale and sickly'], 'Adjective': ['(of light', 'or wan', 'abnormally deficient in color as suggesting physical or emotional distress', 'lacking vitality as from weariness or illness or unhappiness']}
+ass: {'Noun': ['the fleshy part of the human body that you sit on', 'a pompous fool', 'hardy and sure-footed animal smaller and with longer ears than the horse', 'slang for sexual intercourse']}
+tox: None
+cage: {'Noun': ['an enclosure made or wire or metal bars in which birds or animals can be kept', 'something that restricts freedom as a cage restricts movement', 'United States composer of avant-garde music (1912-1992', 'the net that is the goal in ice hockey', 'a movable screen placed behind home base to catch balls during batting practice'], 'Verb': ['confine in a cage']}
+pacy: None
+err: {'Verb': ['to make a mistake or be incorrect', 'wander from a direct course or at random']}
+nee: {'Adjective': ["(meaning literally `born'"]}
+ass: {'Noun': ['the fleshy part of the human body that you sit on', 'a pompous fool', 'hardy and sure-footed animal smaller and with longer ears than the horse', 'slang for sexual intercourse']}
+ann: None
+fut: None
+boo: {'Noun': ['a cry or noise made to express displeasure or contempt'], 'Verb': ['show displeasure, as after a performance or speech']}
+odd: {'Adjective': ['not divisible by two', 'not easily explained', 'an indefinite quantity more than that specified', 'beyond or deviating from the usual or expected', 'of the remaining member of a pair', 'not used up']}
+like: {'Noun': ['a similar kind', 'a kind of person'], 'Verb': ['prefer or wish to do something', 'find enjoyable or agreeable', 'be fond of', 'feel about or towards; consider, evaluate, or regard', 'want to have'], 'Adjective': ['resembling or similar; having the same or some of the same characteristics; often used in combination', 'equal in amount or value', 'having the same or similar characteristics', 'conforming in every respect']}
+ill: {'Noun': ['an often persistent bodily disorder or disease; a cause for complaining'], 'Adjective': ['affected by an impairment of normal physical or mental function', 'resulting in suffering or adversity', 'distressing', 'indicating hostility or enmity', 'presaging ill fortune'], 'Adverb': ["(`ill' is often used as a combining form", 'unfavorably or with disapproval', 'with difficulty or inconvenience; scarcely or hardly']}
+pub: {'Noun': ['tavern consisting of a building with a bar and public rooms; often provides light meals']}
+amu: None
+hose: {'Noun': ['socks and stockings and tights collectively (the British include underwear', "man's close-fitting garment of the 16th and 17th centuries covering the legs and reaching up to the waist; worn with a doublet", 'a flexible pipe for conveying a liquid or gas'], 'Verb': ['water with a hose']}
+gaz: None
+loo: {'Noun': ['a toilet in Britain']}
+atty: None
+ass: {'Noun': ['the fleshy part of the human body that you sit on', 'a pompous fool', 'hardy and sure-footed animal smaller and with longer ears than the horse', 'slang for sexual intercourse']}
+net: {'Noun': ['a computer network consisting of a worldwide network of computer networks that use the TCP/IP network protocols to facilitate data transmission and exchange', 'a trap made of netting to catch fish or birds or insects', 'the excess of revenues over outlays in a given period of time (including depreciation and other non-cash expenses', 'a goal lined with netting (as in soccer or hockey', 'game equipment consisting of a strip of netting dividing the playing area in tennis or badminton', 'an open fabric of string or rope or wire woven together at regular intervals'], 'Verb': ['make as a net profit', 'yield as a net profit', 'construct or form a web, as if by weaving', 'catch with a net'], 'Adjective': ['remaining after all deductions', 'conclusive in a process or progression']}
+din: {'Noun': ['a loud harsh or strident noise', 'the act of making a noisy disturbance'], 'Verb': ['make a resonant sound, like artillery', 'instill (into a person']}
+ice: {'Noun': ['water frozen in the solid state', 'the frozen part of a body of water', 'diamonds', 'a flavored sugar topping used to coat and decorate cakes', 'a frozen dessert with fruit flavoring (especially one containing no milk', 'an amphetamine derivative (trade name Methedrine', 'a heat engine in which combustion occurs inside the engine rather than in a separate furnace; heat expands a gas that either moves a piston or turns a gas turbine', 'a rink with a floor of ice for ice hockey or ice skating'], 'Verb': ['decorate with frosting', 'cause to become ice or icy', 'put ice on or put on ice']}
+ass: {'Noun': ['the fleshy part of the human body that you sit on', 'a pompous fool', 'hardy and sure-footed animal smaller and with longer ears than the horse', 'slang for sexual intercourse']}
+abb: {'Noun': ['an urban hit squad and guerrilla group of the Communist Party in the Philippines; formed in the 1980s']}
+meg: {'Noun': ['the number that is represented as a one followed by 6 zeros']}
+pile: {'Noun': ['a collection of objects laid on top of each other', 'a large sum of money (especially as pay or profit', 'fine soft dense hair (as the fine short hair of cattle or deer or the wool of sheep or the undercoat of certain dogs', 'battery consisting of voltaic cells arranged in series; the earliest electric battery devised by Volta', 'a column of wood or steel or concrete that is driven into the ground to provide support for a structure', 'the yarn (as in a rug or velvet or corduroy', 'a nuclear reactor that uses controlled nuclear fission to generate energy'], 'Verb': ['arrange in stacks', 'press tightly together or cram', 'place or lay as if in a pile']}
+oke: None
+inn: {'Noun': ['a hotel providing overnight lodging for travelers']}
+tit: {'Noun': ['either of two soft fleshy milk-secreting glandular organs on the chest of a woman', 'the small projection of a mammary gland', 'small insectivorous birds']}
+atty: None
+bema: {'Noun': ['area around the altar of a church for the clergy and choir; often enclosed by a lattice or railing']}
+inn: {'Noun': ['a hotel providing overnight lodging for travelers']}
+wot: None
+wore: {'Verb': ['be dressed in', "have on one's person", "have in one's aspect; wear an expression of one's attitude or personality", 'deteriorate through use or stress', 'have or show an appearance of', 'last and be usable', 'go to pieces', 'exhaust or get tired through overuse or great strain or stress', "put clothing on one's body"]}
+tee: {'Noun': ['the starting place for each hole on a golf course', 'support holding a football on end and above the ground preparatory to the kickoff', 'a short peg put into the ground to hold a golf ball off the ground'], 'Verb': ['place on a tee', 'connect with a tee']}
+pee: {'Noun': ['liquid excretory product', 'informal terms for urination'], 'Verb': ['eliminate urine']}
+mos: {'Noun': ['an indefinitely short time', 'a polyvalent metallic element that resembles chromium and tungsten in its properties; used to strengthen and harden steel', 'a midwestern state in central United States; a border state during the American Civil War, Missouri was admitted to the Confederacy without actually seceding from the Union']}
+too: {'Adverb': ['to a degree exceeding normal or proper limits', 'in addition']}
+bee: {'Noun': ['any of numerous hairy-bodied insects including social and solitary species', 'a social gathering to carry out some communal task or to hold competitions']}
+mon: {'Noun': ['the second day of the week; the first working day', 'a member of a Buddhist people living in Myanmar and adjacent parts of Thailand', 'the Mon-Khmer language spoken by the Mon']}
+ale: {'Noun': ['a general name for beer made with a top fermenting yeast; in some of the United States an ale is (by law']}
+roo: None
+ole: None
+cir: None
+coo: {'Noun': ['the sound made by a pigeon'], 'Verb': ['speak softly or lovingly', 'cry softly, as of pigeons']}
+mud: {'Noun': ['water soaked soil; soft wet earth', 'slanderous remarks or charges'], 'Verb': ['soil with mud, muck, or mire', 'plaster with mud']}
+tut: {'Verb': ["utter `tsk,' `tut,' or `tut-tut,' as in disapproval"]}
+baa: {'Noun': ['the cry made by sheep', "United States writer of children's books (1856-1919"], 'Verb': ['cry plaintively']}
+ell: {'Noun': ['an extension at the end and at right angles to the main building']}
+ixia: {'Noun': ['a monocotyledonous genus of the family Iridaceae']}
+arr: None
+ten: {'Noun': ['the cardinal number that is the sum of nine and one; the base of the decimal system', 'one of four playing cards in a deck with ten pips on the face'], 'Adjective': ['being one more than nine']}
+pit: {'Noun': ['a sizeable hole (usually in the ground', 'a concavity in a surface (especially an anatomical depression', 'the hard inner (usually woody', 'as peaches or plums or cherries or olives', '(Christianity', 'an enclosure in which animals are made to fight', '(commodity exchange', '(auto racing', 'a trap in the form of a concealed hole', 'a surface excavation for extracting stone or slate', 'lowered area in front of a stage where an orchestra accompanies the performers', 'a workplace consisting of a coal mine plus all the buildings and equipment connected with it'], 'Verb': ['set into opposition or rivalry', 'mark with a scar', 'remove the pits from']}
+egg: {'Noun': ['animal reproductive body consisting of an ovum or embryo together with nutritive and protective envelopes; especially the thin-shelled reproductive body laid by e.g. female birds', 'oval reproductive body of a fowl (especially a hen', 'one of the two male reproductive glands that produce spermatozoa and secrete androgens'], 'Verb': ['throw eggs at', 'coat with beaten egg']}
+see: {'Noun': ["the seat within a bishop's diocese where his cathedral is located"], 'Verb': ['perceive by sight or have the power to perceive by sight', 'perceive (an idea or situation', 'perceive or be contemporaneous with', "imagine; conceive of; see in one's mind", 'deem to be', 'get to know or become aware of, usually accidentally', 'see or watch', 'come together', 'find out, learn, or determine with certainty, usually by making an inquiry or other effort', 'be careful or certain to do something; make certain of something', 'go to see for professional or business reasons', 'go to see for a social visit', 'go to see a place, as for entertainment', 'take charge of or deal with', 'receive as a specified guest', 'date regularly; have a steady relationship with', 'see and understand, have a good eye', 'deliberate or decide', 'observe as if with an eye', 'observe, check out, and look over carefully or inspect', 'undergo or live through a difficult experience', 'accompany or escort', 'match or meet', 'make sense of; assign a meaning to']}
+tee: {'Noun': ['the starting place for each hole on a golf course', 'support holding a football on end and above the ground preparatory to the kickoff', 'a short peg put into the ground to hold a golf ball off the ground'], 'Verb': ['place on a tee', 'connect with a tee']}
+opp: None
+visa: {'Noun': ['an endorsement made in a passport that allows the bearer to enter the country issuing it'], 'Verb': ['provide (a passport', 'approve officially']}
+caw: {'Noun': ['the sound made by corvine birds'], 'Verb': ['utter a cry, characteristic of crows, rooks, or ravens']}
+loo: {'Noun': ['a toilet in Britain']}
+car: {'Noun': ['a motor vehicle with four wheels; usually propelled by an internal combustion engine', 'a wheeled vehicle adapted to the rails of railroad', 'the compartment that is suspended from an airship and that carries personnel and the cargo and the power plant', 'where passengers ride up and down', 'a conveyance for passengers or freight on a cable railway']}
+goo: {'Noun': ['any thick, viscous matter']}
+opp: None
+aka: None
+abbe: {'Noun': ['a French abbot']}
+too: {'Adverb': ['to a degree exceeding normal or proper limits', 'in addition']}
+hoo: None
+hoo: None
+limy: None
+eff: {'Verb': ['have sexual intercourse with']}
+wake: {'Noun': ['the consequences of an event (especially a catastrophic event', 'an island in the western Pacific between Guam and Hawaii', 'the wave that spreads behind a boat as it moves forward', 'a vigil held over a corpse the night before burial'], 'Verb': ['be awake, be alert, be there', 'stop sleeping', 'arouse or excite feelings and passions', 'make aware of', 'cause to become awake or conscious']}
+fec: None
+ill: {'Noun': ['an often persistent bodily disorder or disease; a cause for complaining'], 'Adjective': ['affected by an impairment of normal physical or mental function', 'resulting in suffering or adversity', 'distressing', 'indicating hostility or enmity', 'presaging ill fortune'], 'Adverb': ["(`ill' is often used as a combining form", 'unfavorably or with disapproval', 'with difficulty or inconvenience; scarcely or hardly']}
+amu: None
+odd: {'Adjective': ['not divisible by two', 'not easily explained', 'an indefinite quantity more than that specified', 'beyond or deviating from the usual or expected', 'of the remaining member of a pair', 'not used up']}
+pad: {'Noun': ['a number of sheets of paper fastened together along one edge', 'the large floating leaf of an aquatic plant (as the water lily', 'a block of absorbent material saturated with ink; used to transfer ink evenly to a rubber stamp', 'a flat mass of soft material used for protection, stuffing, or comfort', 'a platform from which rockets or space craft are launched', 'temporary living quarters', "the fleshy cushion-like underside of an animal's foot or of a human's finger"], 'Verb': ['add details to', 'walk heavily and firmly, as when weary, or through mud', 'line or stuff with soft material', 'add padding to']}
+tee: {'Noun': ['the starting place for each hole on a golf course', 'support holding a football on end and above the ground preparatory to the kickoff', 'a short peg put into the ground to hold a golf ball off the ground'], 'Verb': ['place on a tee', 'connect with a tee']}
+ill: {'Noun': ['an often persistent bodily disorder or disease; a cause for complaining'], 'Adjective': ['affected by an impairment of normal physical or mental function', 'resulting in suffering or adversity', 'distressing', 'indicating hostility or enmity', 'presaging ill fortune'], 'Adverb': ["(`ill' is often used as a combining form", 'unfavorably or with disapproval', 'with difficulty or inconvenience; scarcely or hardly']}
+rel: None
+ken: {'Noun': ['range of what one can know or understand', 'the range of vision']}
+nix: {'Noun': ['a quantity of no importance'], 'Verb': ['command against']}
+app: None
+cuke: {'Noun': ['cylindrical green fruit with thin green rind and white flesh eaten as a vegetable; related to melons']}
+poo: None
+acc: {'Noun': ['a command that is the primary provider of air combat weapon systems to the United States Air Force; operates fighter, bomber, reconnaissance, battle-management, and rescue aircraft']}
+off: {'Verb': ['kill intentionally and with premeditation'], 'Adjective': ['not in operation or operational', 'below a satisfactory level', '(of events', 'in an unpalatable state', 'not performing or scheduled for duties'], 'Adverb': ["from a particular thing or place or position (`forth' is obsolete", 'at a distance in space or time', 'or away', 'or away', 'no longer on or in contact or attached']}
+esse: None
+poo: None
+goo: {'Noun': ['any thick, viscous matter']}
+hoo: None
+ilia: {'Noun': ['an ancient city in Asia Minor that was the site of the Trojan War', 'an ancient city in Asia Minor that was the site of the Trojan War', 'the upper and widest of the three bones making up the hipbone']}
+inn: {'Noun': ['a hotel providing overnight lodging for travelers']}
+bee: {'Noun': ['any of numerous hairy-bodied insects including social and solitary species', 'a social gathering to carry out some communal task or to hold competitions']}
+ere: None
+sol: {'Noun': ['a colloid that has a continuous liquid phase in which a solid is suspended in a liquid', '(Roman mythology', 'the syllable naming the fifth (dominant']}
+off: {'Verb': ['kill intentionally and with premeditation'], 'Adjective': ['not in operation or operational', 'below a satisfactory level', '(of events', 'in an unpalatable state', 'not performing or scheduled for duties'], 'Adverb': ["from a particular thing or place or position (`forth' is obsolete", 'at a distance in space or time', 'or away', 'or away', 'no longer on or in contact or attached']}
+hor: None
+inn: {'Noun': ['a hotel providing overnight lodging for travelers']}
+arr: None
+mel: None
+eff: {'Verb': ['have sexual intercourse with']}
+rah: None
+all: {'Adjective': ['(quantifier', 'completely given to or absorbed by'], 'Adverb': ["to a complete degree or to the full or entire extent (`whole' is often used informally for `wholly'"]}
+hex: {'Noun': ['an evil spell'], 'Verb': ['cast a spell over someone or something; put a hex on someone or something'], 'Adjective': ['of or pertaining to a number system having 16 as its base']}
+tuna: {'Noun': ['tropical American prickly pear of Jamaica', 'important warm-water fatty fish of the genus Thunnus of the family Scombridae; usually served as steaks', 'any very large marine food and game fish of the genus Thunnus; related to mackerel; chiefly of warm waters', 'New Zealand eel']}
+odd: {'Adjective': ['not divisible by two', 'not easily explained', 'an indefinite quantity more than that specified', 'beyond or deviating from the usual or expected', 'of the remaining member of a pair', 'not used up']}
+ell: {'Noun': ['an extension at the end and at right angles to the main building']}
+ere: None
+lube: {'Noun': ['a substance capable of reducing friction by making surfaces smooth or slippery'], 'Verb': ['apply a lubricant to']}
+gee: {'Noun': ['a unit of force equal to the force exerted by gravity; used to indicate the force to which a body is subjected when it is accelerated'], 'Verb': ['turn to the right side', 'give a command to a horse to turn to the right side']}
+pas: {'Noun': ['(ballet', 'especially in classical ballet']}
+mica: {'Noun': ['any of various minerals consisting of hydrous silicates of aluminum or potassium etc. that crystallize in forms that allow perfect cleavage into very thin leaves; used as dielectrics because of their resistance to electricity']}
+ago: {'Adjective': ['gone by; or in the past'], 'Adverb': ['in the past']}
+aba: {'Noun': ['a loose sleeveless outer garment made from aba cloth; worn by Arabs', 'a fabric woven from goat hair and camel hair']}
+ana: {'Noun': ['mother of the ancient Irish gods; sometimes identified with Danu', 'a collection of anecdotes about a person or place']}
+tee: {'Noun': ['the starting place for each hole on a golf course', 'support holding a football on end and above the ground preparatory to the kickoff', 'a short peg put into the ground to hold a golf ball off the ground'], 'Verb': ['place on a tee', 'connect with a tee']}
+inn: {'Noun': ['a hotel providing overnight lodging for travelers']}
+all: {'Adjective': ['(quantifier', 'completely given to or absorbed by'], 'Adverb': ["to a complete degree or to the full or entire extent (`whole' is often used informally for `wholly'"]}
+obb: None
+off: {'Verb': ['kill intentionally and with premeditation'], 'Adjective': ['not in operation or operational', 'below a satisfactory level', '(of events', 'in an unpalatable state', 'not performing or scheduled for duties'], 'Adverb': ["from a particular thing or place or position (`forth' is obsolete", 'at a distance in space or time', 'or away', 'or away', 'no longer on or in contact or attached']}
+xii: {'Noun': ['the cardinal number that is the sum of eleven and one'], 'Adjective': ['denoting a quantity consisting of 12 items or units']}
+bee: {'Noun': ['any of numerous hairy-bodied insects including social and solitary species', 'a social gathering to carry out some communal task or to hold competitions']}
+ann: None
+foo: None
+tod: {'Noun': ['a unit of weight for wool equal to about 28 pounds'], 'Adjective': ['alone and on your own']}
+ope: None
+att: None
+ado: {'Noun': ['a rapid active commotion']}
+zee: {'Noun': ['the 26th letter of the Roman alphabet']}
+area: {'Noun': ['a particular geographical region of indefinite boundary (usually serving some special purpose or distinguished by its people or culture or geography', 'a subject of study', 'a part of an animal that has a special function or is supplied by a given artery or nerve', 'a particular environment or walk of life', 'a part of a structure having some specific characteristic or function', 'the extent of a 2-dimensional surface enclosed within a boundary']}
+all: {'Adjective': ['(quantifier', 'completely given to or absorbed by'], 'Adverb': ["to a complete degree or to the full or entire extent (`whole' is often used informally for `wholly'"]}
+ate: {'Noun': ['goddess of criminal rashness and its punishment'], 'Verb': ['take in solid food', 'eat a meal; take a meal', 'take in food; used of animals only', 'worry or cause anxiety in a persistent way', 'use up (resources or materials', 'cause to deteriorate due to the action of water, air, or an acid']}
+emo: None
+eke: None
+mop: {'Noun': ['cleaning implement consisting of absorbent material fastened to a handle; for cleaning floors'], 'Verb': ['to wash or wipe with or as if with a mop', "make a sad face and thrust out one's lower lip"]}
+acc: {'Noun': ['a command that is the primary provider of air combat weapon systems to the United States Air Force; operates fighter, bomber, reconnaissance, battle-management, and rescue aircraft']}
+ate: {'Noun': ['goddess of criminal rashness and its punishment'], 'Verb': ['take in solid food', 'eat a meal; take a meal', 'take in food; used of animals only', 'worry or cause anxiety in a persistent way', 'use up (resources or materials', 'cause to deteriorate due to the action of water, air, or an acid']}
+col: {'Noun': ['a pass between mountain peaks']}
+loo: {'Noun': ['a toilet in Britain']}
+ego: {'Noun': ['an inflated feeling of pride in your superiority to others', 'your consciousness of your own identity', '(psychoanalysis']}
+gee: {'Noun': ['a unit of force equal to the force exerted by gravity; used to indicate the force to which a body is subjected when it is accelerated'], 'Verb': ['turn to the right side', 'give a command to a horse to turn to the right side']}
+bog: {'Noun': ['wet spongy ground of decomposing vegetation; has poorer drainage than a swamp; soil is unfit for cultivation but can be cut and dried and used for fuel'], 'Verb': ['cause to slow down or get stuck', 'get stuck while doing something']}
+wee: {'Noun': ['a short time'], 'Verb': ['eliminate urine'], 'Adjective': ['(used informally', 'very early']}
+lee: {'Noun': ['United States filmmaker whose works explore the richness of black culture in America (born in 1957', 'United States striptease artist who became famous on Broadway in the 1930s (1914-1970', 'United States actor who was an expert in kung fu and starred in martial arts films (1941-1973', 'United States physicist (born in China', 'born in 1926', 'leader of the American Revolution who proposed the resolution calling for independence of the American Colonies (1732-1794', 'soldier of the American Revolution (1756-1818', 'American general who led the Confederate Armies in the American Civil War (1807-1870', 'the side of something that is sheltered from the wind'], 'Adjective': ['towards the side away from the wind']}
+app: None
+obb: None
+nob: {'Noun': ['informal term for an upper-class or wealthy person']}
+acc: {'Noun': ['a command that is the primary provider of air combat weapon systems to the United States Air Force; operates fighter, bomber, reconnaissance, battle-management, and rescue aircraft']}
+xii: {'Noun': ['the cardinal number that is the sum of eleven and one'], 'Adjective': ['denoting a quantity consisting of 12 items or units']}
+oka: {'Noun': ['a Turkish unit of weight equal to about 2.75 pounds', 'a Turkish liquid unit equal to 1.3 pints', 'South American wood sorrel cultivated for its edible tubers']}
+app: None
+zee: {'Noun': ['the 26th letter of the Roman alphabet']}
+zoo: {'Noun': ['the facility where wild animals are housed for exhibition']}
+dup: None
+obb: None
+obb: None
+hoo: None
+veg: {'Noun': ['edible seeds or roots or stems or leaves or bulbs or tubers or nonsweet fruits of any of numerous herbaceous plant']}
+bora: {'Noun': ['a trivalent metalloid element; occurs both in a hard black crystal and in the form of a yellow or brown powder']}
+wot: None
+pee: {'Noun': ['liquid excretory product', 'informal terms for urination'], 'Verb': ['eliminate urine']}
+pole: {'Noun': ['a long (usually round', 'a native or inhabitant of Poland', 'one of two divergent or mutually exclusive opinions', 'a linear measure of 16.5 feet', 'a square rod of land', "one of two points of intersection of the Earth's axis and the celestial sphere", "one of two antipodal points where the Earth's axis of rotation intersects the Earth's surface", 'a contact on an electrical device (such as a battery', 'a long fiberglass sports implement used for pole vaulting', 'one of the two ends of a magnet where the magnetism seems to be concentrated'], 'Verb': ['propel with a pole', 'support on poles', 'deoxidize molten metals by stirring them with a wooden pole']}
+woo: {'Verb': ["seek someone's favor", 'make amorous advances towards']}
+hew: {'Verb': ['make or shape as with an axe', 'strike with an axe; cut down, strike']}
+egg: {'Noun': ['animal reproductive body consisting of an ovum or embryo together with nutritive and protective envelopes; especially the thin-shelled reproductive body laid by e.g. female birds', 'oval reproductive body of a fowl (especially a hen', 'one of the two male reproductive glands that produce spermatozoa and secrete androgens'], 'Verb': ['throw eggs at', 'coat with beaten egg']}
+lid: {'Noun': ['either of two folds of skin that can be moved to cover or open the eye', 'a movable top or cover (hinged or separate', 'headdress that protects the head from bad weather; has shaped crown and usually a brim']}
+dol: {'Noun': ['a unit of pain intensity', 'the federal department responsible for promoting the working conditions of wage earners in the United States; created in 1913']}
+coo: {'Noun': ['the sound made by a pigeon'], 'Verb': ['speak softly or lovingly', 'cry softly, as of pigeons']}
+add: {'Noun': ['a condition (mostly in boys'], 'Verb': ['make an addition (to', 'state or say further', 'bestow a quality on', 'make an addition by combining numbers', 'determine the sum of', 'constitute an addition']}
+sis: {'Noun': ["a tetravalent nonmetallic element; next to oxygen it is the most abundant element in the earth's crust; occurs in clay and feldspar and granite and quartz and sand; used as a semiconductor in transistors", 'a complete metric system of units of measurement for scientists; fundamental quantities are length (meter', 'kilogram', 'second', 'ampere', 'kelvin', 'candela', 'the syllable naming the seventh (subtonic', 'a female person who has the same parents as another person']}
+ope: None
+inn: {'Noun': ['a hotel providing overnight lodging for travelers']}
+too: {'Adverb': ['to a degree exceeding normal or proper limits', 'in addition']}
+baa: {'Noun': ['the cry made by sheep', "United States writer of children's books (1856-1919"], 'Verb': ['cry plaintively']}
+liq: None
+wag: {'Noun': ['a witty amusing person who makes jokes', 'causing to move repeatedly from side to side'], 'Verb': ['move from side to side']}
+lime: {'Noun': ['a caustic substance produced by heating limestone', 'a white crystalline oxide used in the production of calcium hydroxide', 'a sticky adhesive that is smeared on small branches to capture small birds', 'any of various related trees bearing limes', 'any of various deciduous trees of the genus Tilia with heart-shaped leaves and drooping cymose clusters of yellowish often fragrant flowers; several yield valuable timber', 'the green acidic fruit of any of various lime trees'], 'Verb': ['spread birdlime on branches to catch birds', 'cover with lime so as to induce growth']}
+ebb: {'Noun': ['a gradual decline (in size or strength or power or number', 'the outward flow of the tide'], 'Verb': ['flow back or recede', 'hem in fish with stakes and nets so as to prevent them from going back into the sea with the ebb', 'fall away or decline']}
+set: {'Noun': ['a group of things of the same kind that belong together and are so used', '(mathematics', 'several exercises intended to be done in series', 'representation consisting of the scenery and other properties used to identify the location of a dramatic production', 'an unofficial association of people or groups', 'a relatively permanent inclination to react in a particular way', 'the act of putting something in position', 'a unit of play in tennis or squash', 'the process of becoming hard or solid by cooling or drying or crystallization', 'evil Egyptian god with the head of a beast that has high square ears and a long snout; brother and murderer of Osiris', 'the descent of a heavenly body below the horizon', '(psychology', 'any electronic equipment that receives or transmits radio or tv signals'], 'Verb': ['put into a certain place or abstract location', 'fix conclusively or authoritatively', 'decide upon or fix definitely', 'establish as the highest level or best performance', 'put into a certain state; cause to be in a certain state', 'fix in a border', 'make ready or suitable or equip in advance for a particular purpose or for some use, event, etc', 'set to a certain position or cause to operate correctly', 'locate', 'disappear beyond the horizon', 'adapt for performance in a different way', 'put or set (seeds, seedlings, or plants', 'apply or start', 'become gelatinous', 'set in type', 'put into a position that will restore a normal state', 'insert (a nail or screw below the surface, as into a countersink', 'give a fine, sharp edge to a knife or razor', 'urge to attack someone', 'estimate', 'equip with sails or masts', 'get ready for a particular purpose or event', 'alter or regulate so as to achieve accuracy or conform to a standard', 'bear fruit', 'arrange attractively'], 'Adjective': ["(usually followed by `to' or `for'", 'fixed and unmoving', 'situated in a particular spot or position', 'set down according to a plan', 'being below the horizon', 'determined or decided upon as by an authority', 'converted to solid form (as concrete']}
+gee: {'Noun': ['a unit of force equal to the force exerted by gravity; used to indicate the force to which a body is subjected when it is accelerated'], 'Verb': ['turn to the right side', 'give a command to a horse to turn to the right side']}
+doz: None
+acc: {'Noun': ['a command that is the primary provider of air combat weapon systems to the United States Air Force; operates fighter, bomber, reconnaissance, battle-management, and rescue aircraft']}
+pee: {'Noun': ['liquid excretory product', 'informal terms for urination'], 'Verb': ['eliminate urine']}
+cacao: {'Noun': ['tropical American tree producing cacao beans']}
+rah: None
+goo: {'Noun': ['any thick, viscous matter']}
+sale: {'Noun': ['a particular instance of selling', 'the general activity of selling', 'an occasion (usually brief', 'the state of being purchasable; offered or exhibited for selling', 'an agreement (or contract', 'vendor', 'vendee', 'paid or agreed to be paid by the buyer']}
+aqua: {'Noun': ['a shade of blue tinged with green']}
+dove: {'Noun': ['any of numerous small pigeons', 'someone who prefers negotiations to armed conflict in the conduct of foreign relations', 'a constellation in the southern hemisphere near Puppis and Caelum', 'flesh of a pigeon suitable for roasting or braising; flesh of a dove (young squab', 'an emblem of peace'], 'Verb': ['drop steeply', 'plunge into water', 'swim under water']}
+ere: None
+rah: None
+mop: {'Noun': ['cleaning implement consisting of absorbent material fastened to a handle; for cleaning floors'], 'Verb': ['to wash or wipe with or as if with a mop', "make a sad face and thrust out one's lower lip"]}
+hoo: None
+pax: {'Noun': ['(Roman Catholic Church']}
+vara: {'Noun': ['a Spanish unit of length (about a yard']}
+ago: {'Adjective': ['gone by; or in the past'], 'Adverb': ['in the past']}
+awe: {'Noun': ['an overwhelming feeling of wonder or admiration', 'a feeling of profound respect for someone or something'], 'Verb': ['inspire awe in']}
+paw: {'Noun': ['a clawed foot of an animal especially a quadruped', 'the (prehensile'], 'Verb': ['scrape with the paws', 'touch clumsily']}
+sene: {'Noun': ['100 sene equal 1 tala in Western Samoa']}
+abb: {'Noun': ['an urban hit squad and guerrilla group of the Communist Party in the Philippines; formed in the 1980s']}
+zee: {'Noun': ['the 26th letter of the Roman alphabet']}
+gee: {'Noun': ['a unit of force equal to the force exerted by gravity; used to indicate the force to which a body is subjected when it is accelerated'], 'Verb': ['turn to the right side', 'give a command to a horse to turn to the right side']}
+mig: None
+rat: {'Noun': ['any of various long-tailed rodents similar to but larger than a mouse', 'someone who works (or provides workers', 'a person who is deemed to be despicable or contemptible', 'one who reveals confidential information in return for money', 'a pad (usually made of hair'], 'Verb': ["desert one's party or group of friends, for example, for one's personal advantage", 'employ scabs or strike breakers in', 'take the place of work of someone on strike', 'give (hair', 'catch rats, especially with dogs', 'give away information about somebody']}
+ell: {'Noun': ['an extension at the end and at right angles to the main building']}
+eff: {'Verb': ['have sexual intercourse with']}
