@@ -1,0 +1,4 @@
+Temperature: -0.39°C
+Humidity: 71%
+Pressure: 1017 hPa
+Weather Report: few clouds
