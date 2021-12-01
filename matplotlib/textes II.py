@@ -1,0 +1,51 @@
+import numpy as np
+import matplotlib.pyplot as plt
+x=np.random.beta(5.0,1.0,10000)
+y=np.random.beta(5.0,1.0,10000)
+plt.scatter(x,y,s=0.5)
+plt.title('beta distribution')
+plt.show()
+
+x=np.random.logistic(5.0,1.0,10000)
+y=np.random.logistic(5.0,1.0,10000)
+plt.scatter(x,y,s=0.5)
+plt.title('logistic distribution')
+plt.show()
+
+x=np.random.lognormal(5.0,1.0,10000)
+y=np.random.lognormal(5.0,1.0,10000)
+plt.scatter(x,y,s=0.5)
+plt.title('log-normal distribution')
+plt.show()
+
+x=np.random.rayleigh(5.0,10000)
+y=np.random.rayleigh(5.0,10000)
+plt.scatter(x,y,s=0.5)
+plt.title('rayleigh distribution')
+plt.show()
+
+x=np.random.standard_exponential(10000)
+y=np.random.standard_exponential(10000)
+plt.scatter(x,y,s=0.5)
+plt.title('exponential distribution')
+plt.show()
+
+x=np.random.standard_gamma(5.0,10000)
+y=np.random.standard_gamma(5.0,10000)
+plt.scatter(x,y,s=0.5)
+plt.title('gamma distribution')
+plt.show()
+
+x=np.random.vonmises(5.0,1.0,10000)
+y=np.random.vonmises(5.0,1.0,10000)
+plt.scatter(x,y,s=0.5)
+plt.title('vonmises distribution')
+plt.show()
+
+x=np.random.exponential(5.0,1.0,10000)
+xx=np.random.normal(2*x+2,20)
+y=np.random.uniform(5.0,1.0,10000)
+yy=np.random.exponential(2*y+2,20)
+plt.scatter(xx,yy,s=0.5)
+plt.title('noise distribution')
+plt.show()
