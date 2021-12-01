@@ -1,0 +1,44 @@
+#https://www.w3schools.com/python/python_ml_getting_started.asp
+
+you know mean median mode already
+
+What is Standard Deviation?
+Standard deviation is a number that describes how spread out the values are.
+
+A low standard deviation means that most of the numbers are close to the mean (average) value.
+
+A high standard deviation means that the values are spread out over a wider range.
+
+Example: This time we have registered the speed of 7 cars:
+
+
+
+
+PERCENTILES
+Percentiles are used in statistics to give you a number that describes the value that a given percent of the values are lower than.
+
+Example: Let's say we have an array of the ages of all the people that lives in a street.
+
+ages = [5,31,43,48,50,41,7,11,15,39,80,82,32,2,8,6,25,36,27,61,31]
+
+What is the 75. percentile? The answer is 43, meaning that 75% of the people are 43 or younger.
+
+
+Linear Regression
+Linear regression uses the relationship between the data-points to draw a straight line through all them.
+
+This line can be used to predict future values.
+
+-is basically the line of best fit
+
+
+R-Squared
+It is important to know how well the relationship between the values of the x- and y-axis is, if there are no relationship the polynomial regression can not be used to predict anything.
+
+The relationship is measured with a value called the r-squared.
+
+The r-squared value ranges from 0 to 1, where 0 means no relationship, and 1 means 100% related.
+
+Python and the Sklearn module will compute this value for you, all you have to do is feed it with the x and y arrays:
+
+-its just how well the dots fit the line of best fit(regression)
