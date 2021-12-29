@@ -18,7 +18,6 @@ body {
 form {
     padding:5px 15px; 
     background:#ccc; 
-    border:5 rgb(0, 0, 0);
     cursor:pointer;
     -webkit-border-radius: 5px;
     border-radius: 5px; 
