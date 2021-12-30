@@ -3,9 +3,10 @@ body{
 }
 
 .wrapper{
-  position: fixed;
-  top: 50%;
-  left: 50%;
+  position:absolute;
+  
+  top: 13%;
+  left: 9%;
   transform: translate(-50%, -50%);
 }
 
@@ -32,12 +33,21 @@ a{
 }
 
 a:hover{
-  width: 200px;
+  width: 250px;
   border: 3px solid #2ecc71;
   background: transparent;
   color: #2ecc71;
 
-  border-radius: 5px;
+  border-radius: 10px;
+}
+
+
+a:hover + .icon{
+  border: 3px solid #2ecc71;
+  /*right: -25%;*/
+  transform:rotate(405deg);
+
+  border-radius: 10px;
 }
 
 .icon{
@@ -45,7 +55,7 @@ a:hover{
   height: 50px;
   border: 3px solid transparent;
   position: absolute;
-  transform: rotate(45deg);
+  transform: rotate(225deg);
   right: 0;
   top: 0;
   z-index: -1;
@@ -60,6 +70,28 @@ a:hover{
   transform: rotate(-45deg);
   fill: #2ecc71;
   transition: all .35s;
+}
+
+
+button {
+  animation-duration: 2s;
+  animation-name: t;
+}
+
+a {
+  animation-duration: 2s;
+  animation-name: ta;
+}
+
+@keyframes t {
+  25% { transform: rotate3d(30deg) }
+  50% { transform: skewX(0deg) translateX(50px); }
+  65% { transform: skewX(15deg);transform: skewY(360deg); }
+}
+@keyframes ta {
+  25% { transform: rotate3d(0deg) }
+  50% { transform: skewX(0deg) translateX(0px); }
+  65% { transform: skewX(15deg);transform: skewY(360deg); }
 }
 
 
@@ -95,7 +127,10 @@ form:hover{
   background: transparent;
   color: #2ecc71;
 
-  border-radius: 5px;
+  /*border-radius: 5px;*/
+  animation-duration: 2s;
+  animation-name:t;
+  
 }
 
 button{
@@ -117,10 +152,12 @@ button{
 }
 
 button:hover{
-  width: 200px;
+  width: 300px;
   border: 3px solid #2ecc71;
   background: transparent;
   color: #2ecc71;
 
   border-radius: 50px;
+  animation-duration: 2s;
+  animation-name:t;
 }
