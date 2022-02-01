@@ -1,9 +1,14 @@
 <!DOCTYPE html>
+<script>
+    function stufff() {
+        window.open("https://www.wikipedia.com/wiki/"+(fname),"_self")
+    }
+</script>
 <html>
     <body>
         <h2>Hello</h2>
         <p>imma gonna have to figure out javascript stuff</p>
-        <form action="/stuff.js">
+        <form onsubmit="return stufff();">
             <label for="fname">stuff:</label><br>
             <input type="text" id="fname" name="fname" value="Alabama"><br>
             <input type="submit" value="Submit">
