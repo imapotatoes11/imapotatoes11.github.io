@@ -1,1 +1,1 @@
-window.location = "http://www.wikipedia.com/wiki/" + (document.getElementById("fname"));f
+window.location = "http://www.wikipedia.com/wiki/" + (document.getElementById("fname"));
