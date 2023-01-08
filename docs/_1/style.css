@@ -1,0 +1,32 @@
+:root{
+    --main-color:#ffffff;
+    --accent-color:#10a37f;
+    --text-color:#000000;
+    --text-color-light:#ffffff;
+
+    font-family:Helvetica,sans-serif;
+}
+textarea{
+    font-family:Helvetica,sans-serif;
+    border-radius:.5em;
+    padding:.5em;
+}
+button{
+    background-color:var(--accent-color);
+    color:var(--text-color-light);
+
+    padding:0.5em;
+
+    border:none;
+    border-radius:3px;
+    box-sizing:border-box;
+    cursor:pointer;
+    /*display:inline-flex;*/
+    font-weight:400;
+    justify-content:center;
+    /*position:relative;*/
+    transition:0.3s ease-out;
+}
+button:hover{
+    background-color:#1a7f64;
+}
