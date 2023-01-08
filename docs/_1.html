@@ -11,7 +11,7 @@
 <!--<input type="text" id="input" placeholder="Enter prompt:">-->
 <div class="content1">
     <textarea id="main_text" rows="10" cols="50" placeholder="Enter prompt:" class="box"></textarea>
-    <button onclick="makeGetRequest('https://google.ca').then((t)=>{console.log(t);})" id="submit">fadslkfjsdalf</button>
+    <button onclick="makeGetRequest('https://google.ca').then((t)=>{console.log(t);document.getElementById('result').innerHTML=t;})" id="submit">fadslkfjsdalf</button>
     <button onclick="toggleDarkMode()">toggle d/l</button>
 </div>
 </body>
