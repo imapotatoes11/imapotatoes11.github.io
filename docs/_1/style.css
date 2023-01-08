@@ -1,6 +1,11 @@
 :root{
     --main-color:#ffffff;
+    --main-color-dark:#202020;
     --accent-color:#10a37f;
+    --accent-color-dark:#0f8c6e;
+    --secondary-color:#f5f5f5;
+    --secondary-color-dark:#000000;
+
     --text-color:#000000;
     --text-color-light:#ffffff;
 
@@ -16,6 +21,7 @@ button{
     color:var(--text-color-light);
 
     padding:0.5em;
+    font-size:16px;
 
     border:none;
     border-radius:3px;

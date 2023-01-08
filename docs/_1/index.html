@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
 </head>
 <body>
 <!--input field-->
 <!--<input type="text" id="input" placeholder="Enter prompt:">-->
-<textarea id="main_text" rows="10" cols="50" placeholder="Enter prompt:"></textarea>
-<button onclick="console.log('test test...')" id="submit">fadslkfjsdalf</button>
+<div class="content1">
+    <textarea id="main_text" rows="10" cols="50" placeholder="Enter prompt:" class="box"></textarea>
+    <button onclick="makeGetRequest('https://google.ca').then((t)=>{console.log(t);})" id="submit">fadslkfjsdalf</button>
+    <button onclick="toggleDarkMode()">toggle d/l</button>
+</div>
 </body>
 </html>
