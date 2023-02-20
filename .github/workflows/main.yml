@@ -35,8 +35,6 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
-      - name: change dir to testForReact
-        run: cd testForReact
       - name: Install dependencies
         run: npm install
       - name: Build
