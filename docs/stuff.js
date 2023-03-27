@@ -1,1 +1,0 @@
-window.open("https://www.wikipedia.com/wiki/"+(fname),"_self")
