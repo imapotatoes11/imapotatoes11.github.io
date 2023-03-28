@@ -19,8 +19,8 @@ class NavBar extends React.Component {
                     </div>
                     <div id="nav-menu-content" style={{position:'absolute',display:'none'}}>
                         <div id="nav-menu-content-inner">
-                            <a href="https://kkevin.me/vigilant-telegram" className="underline">This is a temporary navbar</a>
-                            <a href="https://rickrollredirect.github.io" className="underline">I will add stuff soon</a>
+                            <a href="index.html" className="underline">Home</a>
+                            <a href="aa.html" className="underline">aa</a>
                         </div>
                     </div>
                     <h1 style={{margin:'auto',cursor:'pointer'}} id="nav-header" onClick={()=>{window.location.href='index.html'}}>
