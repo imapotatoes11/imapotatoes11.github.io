@@ -21,6 +21,7 @@ class NavBar extends React.Component {
                         <div id="nav-menu-content-inner">
                             <a href="index.html" className="underline">Home</a>
                             <a href="aa.html" className="underline">aa</a>
+                            <a href="testing.html" className="underline">test</a>
                         </div>
                     </div>
                     <h1 style={{margin:'auto',cursor:'pointer'}} id="nav-header" onClick={()=>{window.location.href='index.html'}}>
