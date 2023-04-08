@@ -13,7 +13,7 @@
     --text-color:#000000;
     --text-color-light:#ffffff;
 
-    font-family:Helvetica,sans-serif;
+    font-family:"SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body{
     transition:.3s ease-in-out;

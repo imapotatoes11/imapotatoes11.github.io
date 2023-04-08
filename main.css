@@ -1,6 +1,9 @@
 html{
     font-family: 'Open Sans', sans-serif, Helvetica;
 }
+body{
+    transition: 0.5s ease-out;
+}
 .panel1{
     margin:1em;
     padding:1em;
@@ -21,4 +24,39 @@ html{
     justify-content:center;
 
     width:auto;
+}
+
+.fading-gradient{
+    background: linear-gradient(rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    padding-top:25em;
+    padding-bottom:25em;
+    z-index:1;
+    margin:0;
+}
+.fading-gradient1{
+    background: linear-gradient(rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    padding-top:25em;
+    padding-bottom:25em;
+    z-index:1;
+    margin:0;
+}
+.black{
+    background-color:black;
+    color: var(--text-color-light);
+}
+.static-gradient-1{
+    background: linear-gradient(135deg,#60CAFC,#2F65FF,#A56CFF,#5D2EFF);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-attachment: fixed;
+
 }
