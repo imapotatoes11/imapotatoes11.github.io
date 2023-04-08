@@ -80,6 +80,7 @@
 
 #nav-menu-button{
     cursor:pointer;
+    position:absolute;
 }
 
 #nav-div{

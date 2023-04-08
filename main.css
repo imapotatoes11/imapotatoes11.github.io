@@ -4,6 +4,24 @@ html{
 body{
     transition: 0.5s ease-out;
 }
+html, body, section {
+    block-size:100%;
+}
+html{
+    scroll-snap-type: y mandatory;
+}
+section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+
+    margin-top:5em;
+    margin-bottom:5em;
+
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
 .panel1{
     margin:1em;
     padding:1em;
@@ -59,4 +77,28 @@ body{
     /*background-position: center;*/
     background-attachment: fixed;
 
+}
+.static-gradient-2{
+    background: linear-gradient(90deg,#ccefff,#60cafc 40%,#3D71FF);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.static-gradient-2-reversed{
+    background: linear-gradient(90deg,#3D71FF,#60cafc 40%,#ccefff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.static-gradient-3{
+    background:linear-gradient(90deg,#e1cdff,#ad68ff 40%,#9d4dff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.static-gradient-3-reversed{
+    background:linear-gradient(90deg,#9d4dff,#ad68ff 40%,#e1cdff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
