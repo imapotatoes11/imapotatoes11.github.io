@@ -97,101 +97,148 @@
         </div>
     </div>
 <section>
-    <div class="panel1-borderless" style="/*background-color:white;*/width:auto; margin-left:0;margin-right:0;">
-        <h1 style="font-size:72px; background-clip:text; -webkit-background-clip: text; color: transparent; text-align:left; margin-left: 0.5em;" class="static-gradient-2-reversed">
-            My hobbies
-        </h1>
-        <!--
-        TODO: make it just display the hobby, then on hover reveal the text like overlayed ontop of the hobby title
-        -->
-        <br>
-        <div style="display:flex;justify-content:center; justify-items: center;" class="panel1-outside">
-            <style>
-                .panel1-outside > div{
-                    display:flex;
-                }
-                .panel1-seconditem{
-                    position:absolute;
-                    max-width:30%;
-                    opacity:0%;
-                    transition:0.5s ease;
-                }
-                .panel1-seconditem:hover{
-                    opacity:100%;
-                    background:white;
-                    z-index:1;
+    <!--
+    Accordions by alvarotrigo
+    https://codepen.io/alvarotrigo/pen/dyJbqpd?editors=1100
+    -->
+    <br>
+    <h1 style="font-size:72px; background-clip:text; -webkit-background-clip: text; color: transparent; text-align:left; margin-left: 0.5em;" class="static-gradient-2-reversed">
+        My hobbies
+    </h1>
 
-                    background: linear-gradient(90deg, #c6feff, #e5f1ff, #fefdff, #ebe3ff,
-                    #e5f1ff, #c6feff);
-                    background-size: cover;
-                    background-repeat: repeat;
-                    /*background-position: center;*/
-                    background-attachment: fixed;
-                }
-                .panel1{
-                    background: linear-gradient(90deg, #c6feff, #e5f1ff, #fefdff, #ebe3ff,
-                    #e5f1ff, #c6feff);
-                    background-size: cover;
-                    background-repeat: repeat;
-                    /*background-position: center;*/
-                    background-attachment: fixed;
-                    /*box-shadow:  20px 20px 60px #bebebe,*/
-                    /*-20px -20px 60px #ffffff;*/
-                    transition:0.5s ease;
-                }
-            </style>
-            <script>
-                document.addEventListener('mousemove',()=>{
-                    document.querySelectorAll('.panel1').forEach((item)=>{
-                        item.style.backgroundPosition=`${event.clientX-500}px ${event.clientY-500}px`;
-                    })
-                    document.querySelectorAll('.panel1-seconditem').forEach((item)=>{
-                        item.style.backgroundPosition=`${event.clientX-500}px ${event.clientY-500}px`;
-                    })
-                })
-            </script>
-            <div class="panel1" style="width:40%;align-items:center;align-content:center;justify-content:center;justify-items:center;">
-                <h2 style="font-size:32px;" class="panel1-firstitem">Programming</h2>
-                <p class="panel1-seconditem" style="margin:auto;">
-                    Alongside it being my main career choice, I also enjoy programming as a hobby. I experiment and play
-                    around with pretty much everything to do with programming, whether it's backend, or frontend.
-                </p>
-            </div>
-            <div class="panel1" style="width:40%;align-items:center;align-content:center;justify-content:center;justify-items:center;">
-                <h2 style="font-size:32px;" class="panel1-firstitem">Badminton</h2>
-                <p class="panel1-seconditem" style="margin:auto;">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan luctus tellus sed
-                    consectetur. Donec id est et mi lacinia volutpat. Nulla at fringilla turpis. Orci varius natoque
-                    penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam eget ligula dictum,
-                    cursus tortor vestibulum, feugiat ante. Integer cursus auctor odio vel aliquet.
-                </p>
-            </div>
+    <div class="tab">
+        <input type="checkbox" id="chck1">
+        <label class="tab-label" for="chck1">Programming</label>
+        <div class="tab-content">
+            Alongside it being my main career choice, I also enjoy programming as a hobby. I experiment and play
+            around with pretty much everything to do with programming, whether it's backend, or frontend.
         </div>
-        <div style="display:flex;justify-content:center; justify-items: center;" class="panel1-outside">
-            <div class="panel1" style="width:40%;align-items:center;align-content:center;justify-content:center;justify-items:center;">
-                <h2 style="font-size:32px;" class="panel-firstitem">Video Games</h2>
-                <p class="panel1-seconditem" style="margin:auto;position:absolute;">
-                    <p class="panel1-seconditem" style="margin:auto;">
-                        I don't play too many video games, but I usually play <br>
-                        <a href="https://en.wikipedia.org/wiki/minecraft" style="color:black; text-decoration:none" class="underline">Minecraft</a> (Singleplayer & <a href="https://hypixel-skyblock.fandom.com/wiki/SkyBlock" class="underline" style="color:black;text-decoration:none;">Hypixel Skyblock</a>)
-                        , <a href="https://en.wikipedia.org/wiki/Just_Cause_4" style="color:black; text-decoration:none;" class="underline">Just Cause 4</a>
-                        , <a href="https://en.wikipedia.org/wiki/Just_Cause_3" style="color:black; text-decoration:none;" class="underline">Just Cause 3</a>
-                        , <a href="https://en.wikipedia.org/wiki/Ace_Combat_7:_Skies_Unknown" style="color:black; text-decoration:none;" class="underline">Ace Combat 7: Skies Unknown</a>
-                        , <a href="https://en.wikipedia.org/wiki/Project_Wingman" style="color:black; text-decoration:none;" class="underline">Project Wingman</a>
-                        , <a href="https://en.wikipedia.org/wiki/Kerbal_Space_Program" style="color:black; text-decoration:none;" class="underline">Kerbal Space Program</a>
-                    </p>
-                </p>
-            </div>
-            <div class="panel1" style="width:40%;align-items:center;align-content:center;justify-content:center;justify-items:center;">
-                <h2 style="font-size:32px;" class="panel-firstitem">Sleep</h2>
-                <p style="margin:auto;" class="panel1-seconditem">
-                    Sleeping is <em>by far</em> my most favorite hobby. In fact, I've spent around 40% of my
-                     <b>entire</b> life sleeping! I typically sleep for more than 8-9 hours every day.
-                </p>
-            </div>
-        </div>
-
     </div>
+    <br>
+    <div class="tab">
+        <input type="checkbox" id="chck2">
+        <label class="tab-label" for="chck2">Badminton</label>
+        <div class="tab-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
+        </div>
+    </div>
+    <br>
+    <div class="tab">
+        <input type="checkbox" id="chck3">
+        <label class="tab-label" for="chck3">Video Games</label>
+        <div class="tab-content">
+            I don't play too many video games, but I usually play <br>
+            <a href="https://en.wikipedia.org/wiki/minecraft" style="color:black; text-decoration:none" class="underline">Minecraft</a> (Singleplayer & <a href="https://hypixel-skyblock.fandom.com/wiki/SkyBlock" class="underline" style="color:black;text-decoration:none;">Hypixel Skyblock</a>)
+            , <a href="https://en.wikipedia.org/wiki/Just_Cause_4" style="color:black; text-decoration:none;" class="underline">Just Cause 4</a>
+            , <a href="https://en.wikipedia.org/wiki/Just_Cause_3" style="color:black; text-decoration:none;" class="underline">Just Cause 3</a>
+            , <a href="https://en.wikipedia.org/wiki/Ace_Combat_7:_Skies_Unknown" style="color:black; text-decoration:none;" class="underline">Ace Combat 7: Skies Unknown</a>
+            , <a href="https://en.wikipedia.org/wiki/Project_Wingman" style="color:black; text-decoration:none;" class="underline">Project Wingman</a>
+            , <a href="https://en.wikipedia.org/wiki/Kerbal_Space_Program" style="color:black; text-decoration:none;" class="underline">Kerbal Space Program</a>
+        </div>
+    </div>
+    <br>
+    <div class="tab">
+        <input type="checkbox" id="chck4">
+        <label class="tab-label" for="chck4">Sleep</label>
+        <div class="tab-content">
+            Sleeping is <em>by far</em> my most favorite hobby. In fact, I've spent around 40% of my
+             <b>entire</b> life sleeping! I typically sleep for more than 8-9 hours every day.
+        </div>
+    </div>
+    <!--    <div class="panel1-borderless" style="/*background-color:white;*/width:auto; margin-left:0;margin-right:0;">-->
+<!--        <h1 style="font-size:72px; background-clip:text; -webkit-background-clip: text; color: transparent; text-align:left; margin-left: 0.5em;" class="static-gradient-2-reversed">-->
+<!--            My hobbies-->
+<!--        </h1>-->
+<!--        &lt;!&ndash;-->
+<!--        &ndash;&gt;-->
+<!--        <br>-->
+<!--        <div style="display:flex;justify-content:center; justify-items: center;" class="panel1-outside">-->
+<!--            <style>-->
+<!--                .panel1-outside > div{-->
+<!--                    display:flex;-->
+<!--                }-->
+<!--                .panel1-seconditem{-->
+<!--                    position:absolute;-->
+<!--                    max-width:30%;-->
+<!--                    opacity:0%;-->
+<!--                    transition:0.5s ease;-->
+<!--                }-->
+<!--                .panel1-seconditem:hover{-->
+<!--                    opacity:100%;-->
+<!--                    background:white;-->
+<!--                    z-index:1;-->
+
+<!--                    background: linear-gradient(90deg, #c6feff, #e5f1ff, #fefdff, #ebe3ff,-->
+<!--                    #e5f1ff, #c6feff);-->
+<!--                    background-size: cover;-->
+<!--                    background-repeat: repeat;-->
+<!--                    /*background-position: center;*/-->
+<!--                    background-attachment: fixed;-->
+<!--                }-->
+<!--                .panel1{-->
+<!--                    background: linear-gradient(90deg, #c6feff, #e5f1ff, #fefdff, #ebe3ff,-->
+<!--                    #e5f1ff, #c6feff);-->
+<!--                    background-size: cover;-->
+<!--                    background-repeat: repeat;-->
+<!--                    /*background-position: center;*/-->
+<!--                    background-attachment: fixed;-->
+<!--                    /*box-shadow:  20px 20px 60px #bebebe,*/-->
+<!--                    /*-20px -20px 60px #ffffff;*/-->
+<!--                    transition:0.5s ease;-->
+<!--                }-->
+<!--            </style>-->
+<!--            <script>-->
+<!--                document.addEventListener('mousemove',()=>{-->
+<!--                    document.querySelectorAll('.panel1').forEach((item)=>{-->
+<!--                        item.style.backgroundPosition=`${event.clientX-500}px ${event.clientY-500}px`;-->
+<!--                    })-->
+<!--                    document.querySelectorAll('.panel1-seconditem').forEach((item)=>{-->
+<!--                        item.style.backgroundPosition=`${event.clientX-500}px ${event.clientY-500}px`;-->
+<!--                    })-->
+<!--                })-->
+<!--            </script>-->
+<!--            <div class="panel1" style="width:40%;align-items:center;align-content:center;justify-content:center;justify-items:center;">-->
+<!--                <h2 style="font-size:32px;" class="panel1-firstitem">Programming</h2>-->
+<!--                <p class="panel1-seconditem" style="margin:auto;">-->
+<!--                    Alongside it being my main career choice, I also enjoy programming as a hobby. I experiment and play-->
+<!--                    around with pretty much everything to do with programming, whether it's backend, or frontend.-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            <div class="panel1" style="width:40%;align-items:center;align-content:center;justify-content:center;justify-items:center;">-->
+<!--                <h2 style="font-size:32px;" class="panel1-firstitem">Badminton</h2>-->
+<!--                <p class="panel1-seconditem" style="margin:auto;">-->
+<!--                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan luctus tellus sed-->
+<!--                    consectetur. Donec id est et mi lacinia volutpat. Nulla at fringilla turpis. Orci varius natoque-->
+<!--                    penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam eget ligula dictum,-->
+<!--                    cursus tortor vestibulum, feugiat ante. Integer cursus auctor odio vel aliquet.-->
+<!--                </p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div style="display:flex;justify-content:center; justify-items: center;" class="panel1-outside">-->
+<!--            <div class="panel1" style="width:40%;align-items:center;align-content:center;justify-content:center;justify-items:center;">-->
+<!--                <h2 style="font-size:32px;" class="panel-firstitem">Video Games</h2>-->
+<!--                <p class="panel1-seconditem" style="margin:auto;position:absolute;">-->
+<!--                    <p class="panel1-seconditem" style="margin:auto;">-->
+<!--                        I don't play too many video games, but I usually play <br>-->
+<!--                        <a href="https://en.wikipedia.org/wiki/minecraft" style="color:black; text-decoration:none" class="underline">Minecraft</a> (Singleplayer & <a href="https://hypixel-skyblock.fandom.com/wiki/SkyBlock" class="underline" style="color:black;text-decoration:none;">Hypixel Skyblock</a>)-->
+<!--                        , <a href="https://en.wikipedia.org/wiki/Just_Cause_4" style="color:black; text-decoration:none;" class="underline">Just Cause 4</a>-->
+<!--                        , <a href="https://en.wikipedia.org/wiki/Just_Cause_3" style="color:black; text-decoration:none;" class="underline">Just Cause 3</a>-->
+<!--                        , <a href="https://en.wikipedia.org/wiki/Ace_Combat_7:_Skies_Unknown" style="color:black; text-decoration:none;" class="underline">Ace Combat 7: Skies Unknown</a>-->
+<!--                        , <a href="https://en.wikipedia.org/wiki/Project_Wingman" style="color:black; text-decoration:none;" class="underline">Project Wingman</a>-->
+<!--                        , <a href="https://en.wikipedia.org/wiki/Kerbal_Space_Program" style="color:black; text-decoration:none;" class="underline">Kerbal Space Program</a>-->
+<!--                    </p>-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            <div class="panel1" style="width:40%;align-items:center;align-content:center;justify-content:center;justify-items:center;">-->
+<!--                <h2 style="font-size:32px;" class="panel-firstitem">Sleep</h2>-->
+<!--                <p style="margin:auto;" class="panel1-seconditem">-->
+<!--                    Sleeping is <em>by far</em> my most favorite hobby. In fact, I've spent around 40% of my-->
+<!--                     <b>entire</b> life sleeping! I typically sleep for more than 8-9 hours every day.-->
+<!--                </p>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--    </div>-->
 </section>
 <section>
     wow such website i have here<br>
