@@ -261,3 +261,19 @@ input:checked ~ .tab-content {
     max-height: 100vh;
     padding: 1em;
 }
+
+.flex1{
+    display:inline-flex; flex-wrap:wrap;
+}
+
+@media (max-width: 1000px) {
+    .flex1{
+
+    }
+    #title1{
+        font-size:64px;
+    }
+    #title2{
+        font-size:24px;
+    }
+}
