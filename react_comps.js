@@ -29,9 +29,10 @@ class NavBar extends React.Component {
                     display:"flex",
                     padding:"2em",
                     margin:"0",
-                    background:"white",
                     fontFamily:"'SF Pro Text', 'SF Pro Icons'",
-                    zIndex:"-1"
+                    zIndex:"-1",
+                    // position:"fixed",
+                    backgroundColor:"white"
                 }}>
                     {/*<h1 id={"hamburger"} style={*/}
                     {/*    {*/}
