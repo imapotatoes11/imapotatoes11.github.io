@@ -25,17 +25,36 @@ class NavBar extends React.Component {
             return (<div>dark_adsfasdfkljasdfjl</div>)
         else
             return (
-                <div style={{display:"flex"}}>
-                    <h1 id={"hamburger"} style={
-                        {
-                            fontSize:"32px",
-                            padding:".2em .2em"
-                        }
-                    }>≡</h1>
+                <div style={{
+                    display:"flex",
+                    padding:"2em",
+                    margin:"0",
+                    background:"white",
+                    fontFamily:"'SF Pro Text', 'SF Pro Icons'",
+                    zIndex:"-1"
+                }}>
+                    {/*<h1 id={"hamburger"} style={*/}
+                    {/*    {*/}
+                    {/*        fontSize:"32px",*/}
+                    {/*        padding:".2em .2em"*/}
+                    {/*    }*/}
+                    {/*}>≡</h1>*/}
                     <h1 style={{
                         fontSize:"32px",
-                        margin:"auto auto"
-                    }}>dfjsakl (i am aware that the website sucks)</h1>
+                        position:"fixed",
+                        margin:"auto auto",
+                        // left: "50%",
+                        top: "3.5%",
+                        // transform: "translate(-50%)",
+                        color:"var(--text-color)",
+                        cursor:"pointer"
+                    }} onClick={()=>{window.location.href="#"}}>mmm yes</h1>
+                    <div className={"nav-items"}>
+                        <a className={"nav-item"} href={"#"}>Home</a>
+                        <a className={"nav-item"} href={"#"}>About</a>
+                        <a className={"nav-item"} href={"#"}>Projects</a>
+                        <a className={"nav-item"} href={"https://rickrollredirect.github.io"}>Contact</a>
+                    </div>
                 </div>
             )
     }
