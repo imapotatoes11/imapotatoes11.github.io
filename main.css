@@ -10,6 +10,16 @@
     --background-color2-dark: #010101;
     --background-color3-light: #e0e0e0;
     --background-color3-dark: #101010;
+    --background-color3-light-60op: rgba(224, 224, 224, 0.6);
+    --background-color3-dark-60op: rgba(16, 16, 16, 0.6);
+    --background-color4-light: #7e7e7e;
+    --background-color4-dark: #5e5e5e;
+    --background-color4-light-20op: rgba(126, 126, 126, 0.2);
+    --background-color4-dark-20op: rgba(94, 94, 94, 0.2);
+
+    --background-full-light-50op: rgba(255, 255, 255, 0.5);
+    --background-full-dark-50op: rgba(0, 0, 0, 0.5);
+
     --accent-color-light: #9bd09b;
     --accent-color-dark: #334633;
 
@@ -93,5 +103,131 @@
 
 .head-1 {
     display: inline-block;
+    justify-content: center;
+}
+.static-gradient-1{
+    background: linear-gradient(135deg,#60CAFC,#2F65FF,#A56CFF,#5D2EFF);
+    background-size: 400% 400%; /**/
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-attachment: fixed;
+
+}
+#title-name {
+    /*font-size:96px;*/
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align:left;
+    animation: animated-gradient 30s infinite alternate-reverse;
+}
+#title-name2 {
+    /*font-size:96px;*/
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align:left;
+    animation: animated-gradient 30s infinite alternate-reverse;
+}
+@keyframes animated-gradient {
+    to {
+        background-position: 100%;
+    }
+}
+
+/*.cards {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*}*/
+
+.cards {
+    margin-right: 70px;
+    /*width: 100%;*/
+    /*margin: 0;*/
+    /*background: black;*/
+    /*font-family: Verdana, sans-serif;*/
+    /*color: white;*/
+    display: inline-flex;
+    flex-direction: row;
     justify-content: left;
+    /*align-items: center;*/
+    /*align-content: center;*/
+    /*min-height: 100vh;*/
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/*.card {*/
+/*    border: 1px solid #000;*/
+/*    border-radius: 10px;*/
+/*    margin: 10px;*/
+/*    !*padding: 10px;*!*/
+/*    padding: 10px 50px 10px 50px;*/
+/*    !*flex-basis: calc(33.33% - 20px); !* Assuming you want 3 cards per row, adjust as needed *!*!*/
+/*}*/
+
+
+
+
+
+
+.blob {
+    filter: blur(40px);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    opacity: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /*background: rgb(255, 255, 255, 0.5);*/
+    background: var(--background-full-dark-50op);
+    transition: all 300ms ease-in-out;
+}
+
+.fakeblob {
+    /*display: none;*/
+    visibility: hidden;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.card {
+    overflow: hidden;
+    padding: 3px;
+    margin: 0;
+    /*background: rgb(128 128 128 / 0.2);*/
+    background: var(--background-color4-light-20op);
+    border-radius: 10px;
+    position: relative;
+    transition: all 300ms ease-in-out;
+}
+
+.inner {
+    border-radius: 7px;
+    padding: 10px;
+    width: 210px;
+    height: 150px;
+    /*background: rgb(26,26,26);*/
+    background: var(--background-color3-light);
+    backdrop-filter: blur(80px);
+    transition: all 300ms ease-in-out;
+}
+
+.card:hover > .inner {
+    /*background: rgb(26,26,26, 0.6);*/
+    background: var(--background-color3-light-60op);
+    backdrop-filter: blur(80px);
+}
+
+.inner > h1 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
 }
