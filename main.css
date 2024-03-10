@@ -75,6 +75,18 @@
     background: var(--background-color3-light);
 }
 
+.rotate360 {
+    animation: r360 .35s ease-out;
+}
+@keyframes r360 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .content {
     font-size: 18px;
 

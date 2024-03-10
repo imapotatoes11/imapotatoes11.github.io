@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="main.css">
     <script src="ldm.js"></script>
     <script src="headButton.js"></script>
+    <script src="misc.js"></script>
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,15 +15,16 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 <!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cooltipz-css@2.3.0/cooltipz.min.css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <div class="sidebar" id="sidebar-aft" style="height: 100%;"></div>
 <div class="sidebar">
-    <div onclick="document.window.href='index.html'"><span class="material-symbols-outlined">home</span></div>
-    <div><span class="material-symbols-outlined">question_mark</span></div>
-    <div onclick="toggle()"><span class="material-symbols-outlined">contrast</span></div>
+    <div onclick="document.window.href='index.html'" aria-label="Home" class="cooltipz--right"><span class="material-symbols-outlined">home</span></div>
+    <div><span class="material-symbols-outlined cooltipz--right" aria-label="About Me">question_mark</span></div>
+    <div onclick="toggle()" aria-label="Toggle Dark Mode" class="cooltipz--right"><span class="material-symbols-outlined" id="sidebar-darkmode" style="border-radius: 50%">contrast</span></div>
 </div>
 <div class="content">
     <!-- body content -->
