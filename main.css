@@ -199,6 +199,7 @@
 .head-1 {
     display: inline-block;
     justify-content: center;
+    align-items: center;
 }
 .static-gradient-1{
     background: linear-gradient(135deg,#60CAFC,#2F65FF,#A56CFF,#5D2EFF);
@@ -245,7 +246,9 @@
     /*color: white;*/
     display: inline-flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     /*align-items: center;*/
     /*align-content: center;*/
     /*min-height: 100vh;*/
@@ -303,17 +306,25 @@
     border-radius: 8px;
     position: relative;
     transition: all 300ms ease-in-out;
+
+    cursor: pointer;
+}
+.card:hover {
+    transform: scale(101%);
 }
 
 .inner {
     border-radius: 7px;
-    padding: 10px;
-    width: 210px;
-    height: 150px;
+    padding: 20px;
+    /*width: 210px;*/
+    /*height: 150px;*/
+    width: 350px;
+    height: 300px;
     /*background: rgb(26,26,26);*/
     background: var(--background-color3-light);
+    /*background: var(--background-color-light);*/
     backdrop-filter: blur(80px);
-    transition: all 300ms ease-in-out;
+    transition: all .15s ease-in-out;
 }
 
 .card:hover > .inner {
