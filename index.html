@@ -65,6 +65,9 @@
         }
         </script>
         <style>
+        html, :root {
+            font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
         .static-gradient-1{
             background: linear-gradient(135deg,#60CAFC,#2F65FF,#A56CFF,#5D2EFF);
             background-size: 400% 400%; /**/
@@ -72,6 +75,16 @@
             /*background-position: center;*/
             background-attachment: fixed;
 
+        }
+        .static-gradient-2{
+            background: #8360c3;  /* fallback for old browsers */
+            /* background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */ */
+            /* background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ */
+            background: -webkit-linear-gradient(to right, #2ebf91, #83bcd2);
+            background: linear-gradient(to right, #2ebf91, #83bcd2);
+            background-size: 400% 400%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
         #title-name {
             /*font-size:96px;*/
@@ -109,8 +122,8 @@
                 </div>
                 <div class="flex flex-row justify-center items-center z-20">
                     <div class="flex flex-col gap-6">
-                        <h1 class="text-6xl">Hi,<br>I'm <span class="font-bold static-gradient-1" id="title-name"">Kevin</span>.</h1>
-                        <p>Student / Programmer / Procrastinator / Gra<span class="hover:text-teal-500 cursor-pointer" onclick="window.location.href='https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fmy-furina-fanart-v0-mhazgiu328ac1.png%3Fauto%3Dwebp%26s%3Df951d1fdbdb917293031273cdc49453c14a4aa96'">s</span>s Toucher</p>
+                        <h1 class="text-6xl">Hi,<br>I'm <span class="font-bold static-gradient-2" id="title-name"">Kevin</span>.</h1>
+                        <p>Student / Programmer / Pianist / Vid<span class="hover:text-teal-500 cursor-pointer" onclick="window.location.href='https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fmy-furina-fanart-v0-mhazgiu328ac1.png%3Fauto%3Dwebp%26s%3Df951d1fdbdb917293031273cdc49453c14a4aa96'">e</span>o Games Enjoyer</p>
                         <div class="group w-fit cursor-pointer">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="transition-all size-6 group-hover:translate-y-2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
