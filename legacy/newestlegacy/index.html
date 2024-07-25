@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="ldm.js"></script>
+    <script src="headButton.js"></script>
+    <script src="misc.js"></script>
+    <script src="submissive.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cooltipz-css@2.3.0/cooltipz.min.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="sidebar" id="sidebar-aft" style="height: 100%;"></div>
+<div class="sidebar">
+    <div onclick="document.window.href='index.html'" aria-label="Home" class="cooltipz--right"><span class="material-symbols-outlined">home</span></div>
+    <div><span class="material-symbols-outlined cooltipz--right" aria-label="About Me">question_mark</span></div>
+    <div onclick="toggle()" aria-label="Toggle Dark Mode" class="cooltipz--right"><span class="material-symbols-outlined" id="sidebar-darkmode" style="border-radius: 50%">contrast</span></div>
+</div>
+<div class="content">
+    <!-- body content -->
+    <section>
+        <div class="head-1">
+            <h1 style="font-size: 54px; font-weight: 400;">
+                Hi, <br>
+                I'm
+                <span id="title-name" class="static-gradient-1" style="font-weight: 650;">Bob</span>
+            </h1>
+            <p>I copied this website design from someone on the internet. <br>I do not remember who I copied it from.</p>
+            <div class="gradient-border" id="head-button" onclick="headButtonClick()">My Projects</div>
+<!--            <div class="gradient-border" id="box">My Projects</div>-->
+        </div>
+    </section>
+    <section id="projects">
+        <div class="head-1" style="margin-left: 70px;">
+<!--            <h1>Heading 1</h1>-->
+            <div class="cards">
+                <script>
+                    document.addEventListener('DOMContentLoaded', () => {
+                        const all = document.querySelectorAll(".card");
+
+                        window.addEventListener("mousemove", (ev) => {
+
+                            all.forEach((e) => {
+                                const blob = e.querySelector(".blob");
+                                const fblob = e.querySelector(".fakeblob");
+                                const rec = fblob.getBoundingClientRect();
+                                blob.style.opacity = "1";
+
+                                blob.animate(
+                                    [
+                                        {
+                                            transform: `translate(${
+                                                (ev.clientX - rec.left) - (rec.width / 2)
+                                            }px,${(ev.clientY - rec.top) - (rec.height / 2)}px)`
+                                        }
+                                    ],
+                                    {
+                                        duration: 300,
+                                        fill: "forwards"
+                                    }
+                                );
+                            });
+                        });
+                    })
+
+                </script>
+<!--                <div class="card">-->
+<!--                    <h2>Card 1</h2>-->
+<!--                    <p>Card 1 content</p>-->
+<!--                    <img src="https://via.placeholder.com/150" alt="placeholder">-->
+<!--                </div>-->
+<!--                <div class="card">-->
+<!--                    <h2>Card 2</h2>-->
+<!--                    <p>Card 2 content</p>-->
+<!--                    <img src="https://via.placeholder.com/150" alt="placeholder">-->
+<!--                </div>-->
+<!--                <div class="card">-->
+<!--                    <h2>Card 3</h2>-->
+<!--                    <p>Card 3 content</p>-->
+<!--                    <img src="https://via.placeholder.com/150" alt="placeholder">-->
+<!--                </div>-->
+<!--                <div class="card">-->
+<!--                    <h2>Card 4</h2>-->
+<!--                    <p>Card 4 content</p>-->
+<!--                    <img src="https://via.placeholder.com/150" alt="placeholder">-->
+<!--                </div>-->
+<!--                <div class="card">-->
+<!--                    <h2>Card 5</h2>-->
+<!--                    <p>Card 5 content</p>-->
+<!--                    <img src="https://via.placeholder.com/150" alt="placeholder">-->
+<!--                </div>-->
+<!--                <div class="card">-->
+<!--                    <h2>Card 6</h2>-->
+<!--                    <p>Card 6 content</p>-->
+<!--                    <img src="https://via.placeholder.com/150" alt="placeholder">-->
+<!--                </div>-->
+<!--                <div class="card">-->
+<!--                    <h2>Card 7</h2>-->
+<!--                    <p>Card 7 content</p>-->
+<!--                    <img src="https://via.placeholder.com/150" alt="placeholder">-->
+<!--                </div>-->
+
+
+
+
+
+
+
+                <div class="card" onclick="submit('h')">
+                    <div class="inner">
+                        <h1>Home</h1>
+                        <p>A minimal, simple search tab, with shortcuts</p>
+<!--                        <img src="https://via.placeholder.com/150" alt="placeholder">-->
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+                <div class="card" onclick="window.open('https://kalepwa.vercel.app', '_blank')">
+                    <div class="inner">
+                        <h1>Kale</h1>
+                        <p>Simple fullstack schedule app</p>
+<!--                        <img src="https://via.placeholder.com/150" alt="placeholder">-->
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+                <div class="card">
+                    <div class="inner">
+                        <h1>Hi</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ut </p>
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+                <div class="card">
+                    <div class="inner">
+                        <h1>Hi</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ut </p>
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+                <div class="card">
+                    <div class="inner">
+                        <h1>Hi</h1>
+<!--                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ut </p>-->
+                        <img src="https://via.placeholder.com/75" alt="placeholder">
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+                <div class="card">
+                    <div class="inner">
+                        <h1>Hi</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ut </p>
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>
