@@ -63,10 +63,20 @@
                 delete element._tooltip;
             }
         }
+
+        function scrollDownByOneViewHeight() {
+            window.scrollBy({
+                top: window.innerHeight,
+                behavior: 'smooth'
+            });
+        }
+
         </script>
         <style>
         html, :root {
-            font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            /*font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
+            font-family: "Inter", sans-serif;
+            /*font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
         }
         .static-gradient-1{
             background: linear-gradient(135deg,#60CAFC,#2F65FF,#A56CFF,#5D2EFF);
@@ -78,8 +88,8 @@
         }
         .static-gradient-2{
             background: #8360c3;  /* fallback for old browsers */
-            /* background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */ */
-            /* background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ */
+            /* background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+            /* background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             background: -webkit-linear-gradient(to right, #2ebf91, #83bcd2);
             background: linear-gradient(to right, #2ebf91, #83bcd2);
             background-size: 400% 400%;
@@ -100,7 +110,14 @@
             }
         }
         </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="particles.css">
+        <link rel="stylesheet" href="scroll.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>K</title>
     </head>
     <body class="transition-all bg-slate-50 dark:bg-slate-900 dark:text-white">
         <div class="flex flex-col fixed z-40">
@@ -110,7 +127,7 @@
         </div>
 
         <div class="pl-16">
-            <div class="h-screen flex flex-col justify-center items-center">
+            <div class="h-screen flex flex-col justify-center items-center" id="home">
                 <div class="absolute inset-0 z-10">
                     <!--particles from https://codepen.io/tutsplus/pen/MrjYJK-->
                     <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
@@ -122,10 +139,10 @@
                 </div>
                 <div class="flex flex-row justify-center items-center z-20">
                     <div class="flex flex-col gap-6">
-                        <h1 class="text-6xl">Hi,<br>I'm <span class="font-bold static-gradient-2" id="title-name"">Kevin</span>.</h1>
+                        <h1 class="text-6xl">Hi,<br>I'm <span class="font-bold static-gradient-2" id="title-name">Kevin</span>.</h1>
                         <p>Student / Programmer / Pianist / Vid<span class="hover:text-teal-500 cursor-pointer" onclick="window.location.href='https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fmy-furina-fanart-v0-mhazgiu328ac1.png%3Fauto%3Dwebp%26s%3Df951d1fdbdb917293031273cdc49453c14a4aa96'">e</span>o Games Enjoyer</p>
-                        <div class="group w-fit cursor-pointer">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="transition-all size-6 group-hover:translate-y-2">
+                        <div class="group w-fit cursor-pointer" onclick="scrollDownByOneViewHeight()">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="transition-all size-6 group-hover:translate-y-2 cursor-pointer">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
                             </svg>
                         </div>
@@ -134,6 +151,71 @@
                     <div class="p-12"></div>
                     <!--just a filler to offset a bit to the left-->
                 </div>
+            </div>
+            <div class="h-screen flex flex-col justify-center items-center align-center" id="about">
+                <div class="flex text-center">
+                    <p class="text-xl max-w-5xl font-light">
+                        Hi! I'm a student at <span class="text-sky-600 dark:text-sky-500 font-medium">AY Jackson Secondary School</span> in <span class="text-sky-600 dark:text-sky-500 font-medium">Toronto, Canada</span>. I'm currently in <span class="text-sky-600 dark:text-sky-500 font-medium">grade 11</span>, and I'm interested in programming, photography, and music. I've been <span class="text-sky-600 dark:text-sky-500 font-medium">programming for about <span class="font-italic">3 years</span></span> now, and have been playing the <span class="text-sky-600 dark:text-sky-500 font-medium">piano</span> for about 10 years. I also enjoy playing <span class="text-sky-600 dark:text-sky-500 font-medium">video games</span> in my free time.
+                    </p>
+                </div>
+                <p class="mt-12 text-lg">
+                    I usually work with these technologies:
+                </p>
+                <div class="scroll" style="--time:30s">
+                    <div>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>NextJS</span>
+                        <span>Python</span>
+                        <span>Swift</span>
+                        <span>Typescript</span>
+                        <span>Java</span>
+                    </div>
+                    <div>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>NextJS</span>
+                        <span>Python</span>
+                        <span>Swift</span>
+                        <span>Typescript</span>
+                        <span>Java</span>
+                    </div>
+                </div>
+                <div class="scroll" style="--time:27s">
+                    <div>
+                        <span>WebStorm</span>
+                        <span>IntelliJ</span>
+                        <span>PyCharm</span>
+                        <span>Blender</span>
+                        <span>GitHub</span>
+                        <span>Vercel</span>
+                        <span>Figma</span>
+                    </div>
+                    <div>
+                        <span>WebStorm</span>
+                        <span>IntelliJ</span>
+                        <span>PyCharm</span>
+                        <span>Blender</span>
+                        <span>GitHub</span>
+                        <span>Vercel</span>
+                        <span>Figma</span>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-2 mt-4 items-center align-center">
+                    <p class="text-lg">Scroll down to see some of my projects</p>
+                    <div class="group w-fit cursor-pointer" onclick="scrollDownByOneViewHeight()">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="transition-all size-6 group-hover:translate-y-2 cursor-pointer">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="h-screen flex flex-col justify-center items-center align-center" id="projects">
+                Coming soon...
             </div>
         </div>
 
@@ -144,18 +226,18 @@
                 <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
             </svg>
         </button>
-        <button class="btn btn-ghost btn-square fixed left-2 top-1/2 z-50" onmouseenter="showTooltip(this, 'About')" onmouseleave="hideTooltip(this)">
+        <a class="btn btn-ghost btn-square fixed left-2 top-1/2 z-50" onmouseenter="showTooltip(this, 'About')" onmouseleave="hideTooltip(this)" href="#home">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
             </svg>
-        </button>
-        <button class="btn btn-ghost btn-square fixed bottom-4 left-2 z-50" onmouseenter="showTooltip(this, 'Projects')" onmouseleave="hideTooltip(this)">
+        </a>
+        <a class="btn btn-ghost btn-square fixed bottom-4 left-2 z-50" onmouseenter="showTooltip(this, 'Projects')" onmouseleave="hideTooltip(this)" href="#about">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="m20.25 7.5-.625 10.632a2.25 2.25 0 0 1-2.247 2.118H6.622a2.25 2.25 0 0 1-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125Z" />
             </svg>
-        </button>
+        </a>
 
-        <button class="btn btn-square fixed right-4 bottom-4 z-50" onclick='toggleDarkMode()'</button>
+        <button class="btn btn-square fixed right-4 bottom-4 z-50" onclick='toggleDarkMode()'>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
                 <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z" clip-rule="evenodd"/>
             </svg>
