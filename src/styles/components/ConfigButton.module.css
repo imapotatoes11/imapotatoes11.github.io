@@ -1,0 +1,38 @@
+.configbutton {
+    padding: 10px;
+    cursor: pointer;
+    transition: .25s ease-out;
+}
+
+.configbutton:active {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.variant-outline {
+    border: 1px solid #007bff;
+    color: #007bff;
+}
+
+.topleft {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+}
+
+.topright {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+
+.bottomleft {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.bottomright {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
