@@ -86,7 +86,7 @@ export default function Home() {
                         <BorderBeam size={300} duration={12} delay={9} colorFrom={darkMode ? '#dfdfdf' : '#212121'} colorTo={darkMode ? '#212121' : '#dfdfdf'} />
                         <div className="flex flex-col gap-6">
                             <h1 className="text-6xl">
-                                Hi,<br />I'm
+                                Hi,<br />I&apos;m
                                 <span
                                     className="font-bold static-gradient-2"
                                     id="title-name"
