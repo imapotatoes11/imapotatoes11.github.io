@@ -2,22 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.static-gradient-1 {
+    background: linear-gradient(135deg,
+            #60cafc,
+            #2f65ff,
+            #a56cff,
+            #5d2eff);
+    background-size: 400% 400%;
+    /**/
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-attachment: fixed;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.static-gradient-2 {
+    background: #8360c3;
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #2ebf91, #83bcd2);
+    background: linear-gradient(to right, #2ebf91, #83bcd2);
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+#title-name {
+    /*font-size:96px;*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: left;
+    animation: animated-gradient 15s infinite alternate-reverse;
+}
+
+@keyframes animated-gradient {
+    to {
+        background-position: 100%;
+    }
 }
