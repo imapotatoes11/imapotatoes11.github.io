@@ -82,7 +82,7 @@ export default function Home() {
                 )} />}
                 {selectedBg === "particles" && <Particles quantity={100} ease={80} refresh className="absolute inset-0" color={darkMode ? '#dfdfdf' : '#212121'} size={2} />}
                 <div className={`${isMobile ? 'h-[85vh]' : 'h-screen'} w-full flex flex-row justify-center align-center items-center`}>
-                    <div className="transition-all flex flex-row justify-center items-center p-8 rounded-2xl backdrop-blur-xl">
+                    <div className="transition-all flex flex-row justify-center items-center p-8 rounded-2xl backdrop-blur-sm">
                         <BorderBeam size={300} duration={12} delay={9} colorFrom={darkMode ? '#dfdfdf' : '#212121'} colorTo={darkMode ? '#212121' : '#dfdfdf'} />
                         <div className="flex flex-col gap-6">
                             <h1 className="text-6xl">
