@@ -1,7 +1,13 @@
 'use client';
 import Navigator from '@/components/Navigator';
 import { useEffect, useState } from 'react';
-import { Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure, Select, SelectItem } from "@nextui-org/react";
+import {
+    Modal, ModalContent,
+    ModalHeader, ModalBody, ModalFooter,
+    Button,
+    useDisclosure,
+    Select, SelectItem
+} from "@nextui-org/react";
 // import { useDisclosure } from '@nextui-org/react';
 import ConfigButton from '@/components/ConfigButton';
 import { Meteors } from "@/components/magicui/meteors";
@@ -10,14 +16,20 @@ import DotPattern from "@/components/magicui/dot-pattern";
 import Particles from "@/components/magicui/particles";
 import { BorderBeam } from '@/components/magicui/border-beam';
 import { cn } from '@/lib/utils';
+import { TimelineData } from '@/lib/TimelineData';
+import '@/styles/scroll.css';
+import { Timeline } from '@/components/ui/timeline';
+import WordRotate from '@/components/magicui/word-rotate';
+import Foot from '@/components/Foot';
 
+// TODO: timeline data broken
 export default function Home() {
     const [isMobile, setIsMobile] = useState(false);
     const { isOpen, onOpen, onOpenChange } = useDisclosure();
     const [darkMode, setDarkMode] = useState(false);
 
     const possibleBgs = ["meteors", "grid", "dots", "particles"];
-    const [selectedBg, setSelectedBg] = useState("meteors");
+    const [selectedBg, setSelectedBg] = useState("particles");
 
     // for settings modal
     const settings = useDisclosure();
@@ -48,7 +60,7 @@ export default function Home() {
     }, []);
 
     useEffect(() => {
-        setSelectedBg(localStorage.getItem('selectedBg') || "meteors");
+        setSelectedBg(localStorage.getItem('selectedBg') || "particles");
     }, []);
 
     useEffect(() => {
@@ -65,7 +77,8 @@ export default function Home() {
     }, []);
 
     useEffect(() => {
-        onOpen();
+        // onOpen();
+        // this is for the development warning modal.
     }, [])
 
     return (
@@ -94,11 +107,12 @@ export default function Home() {
                                 .
                             </h1>
                             <p>
-                                Student / Programmer / Pianist / Vid<span
+                                {/* Student / Programmer / Pianist / Vid<span
                                     className="hover:text-teal-500 cursor-pointer"
                                     onClick={() => window.location.href = 'https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fmy-furina-fanart-v0-mhazgiu328ac1.png%3Fauto%3Dwebp%26s%3Df951d1fdbdb917293031273cdc49453c14a4aa96'}
                                 >e</span
-                                >o Games Enjoyer
+                                >o Games Enjoyer */}
+                                <WordRotate words={["Student", "Programmer", "Pianist", "Video Games Enjoyer"]} />
                             </p>
                             <div
                                 className="group w-fit cursor-pointer"
@@ -123,12 +137,118 @@ export default function Home() {
                         <div className="p-12"></div>
                     </div>
                 </div>
-                <div className={`${isMobile ? 'h-[95vh]' : 'h-screen'} w-full flex flex-row justify-center align-center items-center bg-base-200`}>
-                    about
+                <div className={`${isMobile ? 'h-[95vh]' : 'h-screen'} w-full flex flex-col justify-center align-center items-center bg-base-200`}>
+                    <div className="flex text-center">
+                        <p className="text-xl max-w-5xl font-light md:px-10 lg:px-1">
+                            Hi! I&apos;m a student at&nbsp;
+                            <span className="text-sky-600 dark:text-sky-500 font-medium"
+                            >AY Jackson Secondary School</span
+                            >
+                            &nbsp;in&nbsp;
+                            <span className="text-sky-600 dark:text-sky-500 font-medium"
+                            >Toronto, Canada</span
+                            >. I&apos;m currently in&nbsp;
+                            <span className="text-sky-600 dark:text-sky-500 font-medium"
+                            >grade 11</span
+                            >, and I&apos;m interested in programming, photography, and
+                            music. I&apos;ve been&nbsp;
+                            <span className="text-sky-600 dark:text-sky-500 font-medium"
+                            >programming for about
+                                <span className="font-italic"> 3 years</span></span
+                            >
+                            &nbsp;now, and have been playing the&nbsp;
+                            <span className="text-sky-600 dark:text-sky-500 font-medium"
+                            >piano</span
+                            >
+                            &nbsp;for about 10 years. I also enjoy playing&nbsp;
+                            <span className="text-sky-600 dark:text-sky-500 font-medium"
+                            >video games</span
+                            >
+                            &nbsp;in my free time.
+                        </p>
+                    </div>
+                    <p className="mt-12 text-lg">
+                        I usually work with these technologies:
+                    </p>
+                    <div className="scroll" style={{ "--time": "30s" } as React.CSSProperties}>
+                        <div>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>NextJS</span>
+                            <span>Python</span>
+                            <span>Swift</span>
+                            <span>Typescript</span>
+                            <span>Java</span>
+                        </div>
+                        <div>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>NextJS</span>
+                            <span>Python</span>
+                            <span>Swift</span>
+                            <span>Typescript</span>
+                            <span>Java</span>
+                        </div>
+                    </div>
+                    <div className="scroll" style={{ "--time": "27s" } as React.CSSProperties}>
+                        <div>
+                            <span>WebStorm</span>
+                            <span>IntelliJ</span>
+                            <span>PyCharm</span>
+                            <span>Blender</span>
+                            <span>GitHub</span>
+                            <span>Vercel</span>
+                            <span>Figma</span>
+                        </div>
+                        <div>
+                            <span>WebStorm</span>
+                            <span>IntelliJ</span>
+                            <span>PyCharm</span>
+                            <span>Blender</span>
+                            <span>GitHub</span>
+                            <span>Vercel</span>
+                            <span>Figma</span>
+                        </div>
+                    </div>
+                    <div className="flex flex-row gap-2 mt-4 items-center align-center">
+                        <p className="text-lg">
+                            Scroll down to see some of my projects
+                        </p>
+                        <div
+                            className="group w-fit cursor-pointer"
+                            onClick={() => scrollDownByOneViewHeight()}
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                strokeWidth="1.5"
+                                stroke="currentColor"
+                                className="transition-all size-6 group-hover:translate-y-2 cursor-pointer"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
+                                />
+                            </svg>
+                        </div>
+                    </div>
                 </div>
-                <div className={`${isMobile ? 'h-[95vh]' : 'h-screen'} w-full flex flex-row justify-center align-center items-center`}>
-                    projects
+                <Timeline data={TimelineData} />
+                <div className={`${isMobile ? 'h-[95vh]' : 'h-screen'} w-full flex flex-col justify-center align-center items-center bg-base-200`}>
+                    <div className="flex text-center">
+                        <p className="text-xl max-w-5xl font-light md:px-10 lg:px-1">
+                            More content coming soon! This site is still under active development, so please check back later.
+                        </p>
+                    </div>
                 </div>
+
+                <Foot />
             </Navigator>
             <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
                 <ModalContent>

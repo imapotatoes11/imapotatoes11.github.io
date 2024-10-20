@@ -107,7 +107,7 @@ export default function Navigator({ children }: NavigatorProps) {
                     {btn1('left-2 top-4')}
                     {btn2('left-2 top-1/2')}
                     {btn3('left-2 bottom-4')}
-                    <div className="pl-16">
+                    <div className="pl-16 overflow-x-hidden">
                         {children}
                     </div>
                 </>
